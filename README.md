@@ -15,9 +15,11 @@ I've created this extension as a preventative measure to prompt the user with a 
 #### Chrome:
 
 1. Download the the repo by clicking the ```Code``` button and then ```Download ZIP```.
-2. Extract the src folder to somewhere you'll remember.
-3. Go to ```chrome://extensions/``` and toggle the developer mode to on.
-4. Click ```Load unpacked``` and select the source folder you'll get a warning and just hit continue. 
+3. Extract the src folder to somewhere you'll remember.
+4. (Optional) While it can technically be install and work fine it'll show a manifest error if you want to remove the errors replace the 2 in ```manifest_version``` with 3 and remove the whole ```browser_specific_settings``` section.
+5. Then go to ```chrome://extensions/``` and toggle the developer mode to on.
+6. Click ```Load unpacked``` and select the source folder you'll get a warning and just hit continue. 
+
 
 ## FAQ: 
 <b>Q</b>: Why Firefox Dev specifically and not just Firefox?
