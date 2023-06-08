@@ -1,4 +1,7 @@
 # Link-Checker
+
+### WORK IN PROGRESS...
+
 ### Description:
 Since Googles decided to introduce .zip and .mov as TLDs (which is completely brain dead),
 I've created this extension as a preventative measure to prompt the user with a confirmation if a link contains any combination of U+2044, U+2215, .zip, or .mov.
