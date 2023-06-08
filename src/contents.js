@@ -17,18 +17,10 @@ function confirmNavigation(e) {
     const containsTextMovAlone = /(^|[^@])\.mov/.test(target.textContent);
   
     const shouldConfirm =
-      containsU2044 ||
-      containsU2215 ||
-      containsZipWithAt ||
-      containsZipAlone ||
-      containsMovWithAt ||
-      containsMovAlone ||
-      containsTextU2044 ||
-      containsTextU2215 ||
-      containsTextZipWithAt ||
-      containsTextZipAlone ||
-      containsTextMovWithAt ||
-      containsTextMovAlone;
+      containsU2044 || containsU2215 || containsZipWithAt ||
+      containsZipAlone || containsMovWithAt || containsMovAlone ||
+      containsTextU2044 || containsTextU2215 || containsTextZipWithAt || 
+      containsTextZipAlone || containsTextMovWithAt || containsTextMovAlone;
   
     if (shouldConfirm) {
       let message = '';
@@ -75,4 +67,3 @@ function confirmNavigation(e) {
   }
   
   document.addEventListener('click', confirmNavigation, true);
-  
